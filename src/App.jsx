@@ -1,6 +1,12 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+
+import hbImg from './assets/m.jpeg'; 
+import ctImg from './assets/msa2.jpeg';
+import ndImg from './assets/vs.jpeg'; 
+
+
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollTop';
 import Hero from './components/Hero';
@@ -20,21 +26,21 @@ const dummyTours = [
     title: "Ruma National Park Safari",
     location: "Homa Bay",
     price: 8500,
-    imageUrl: "https://images.unsplash.com/photo-1547471080-7fc2caa7fd81?q=80&w=2070&auto=format&fit=crop"
+    imageUrl: hbImg
   },
   {
     id: 2,
     title: "Mombasa Coastal Retreat",
     location: "Mombasa",
     price: 15000,
-    imageUrl: "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=2069&auto=format&fit=crop"
+    imageUrl: ctImg
   },
   {
     id: 3,
     title: "Ndanu Falls Expedition",
     location: "Gem",
     price: 4500,
-    imageUrl: "https://images.unsplash.com/photo-1432405972618-c600f4f71a72?q=80&w=2070&auto=format&fit=crop"
+    imageUrl: ndImg
   }
 ];
 

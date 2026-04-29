@@ -1,5 +1,10 @@
 import { useParams, Link } from 'react-router-dom';
 
+import hbImg from '../assets/m.jpeg';
+import ctImg from '../assets/msa2.jpeg';
+import ndImg from '../assets/vs.jpeg';
+
+
 // We recreate our dummy data here for now. 
 // Later, your Node.js backend will send this directly to the page!
 const dummyTours = [
@@ -9,7 +14,7 @@ const dummyTours = [
     location: "Homa Bay",
     price: 8500,
     description: "Experience the raw beauty of Kenya's hidden gem. Home to the rare Roan antelope, this full-day safari includes guided tracking, a bush picnic, and breathtaking views of the Lambwe Valley.",
-    imageUrl: "https://images.unsplash.com/photo-1614531341608-720b0b8cdeab?auto=format&fit=crop&w=1920&q=80"
+    imageUrl: hbImg
   },
   {
     id: 2,
@@ -17,7 +22,7 @@ const dummyTours = [
     location: "Mombasa",
     price: 15000,
     description: "Unwind on the pristine white sands of the Kenyan coast. Enjoy a 3-day retreat featuring snorkeling in the marine park, sunset dhow cruises, and authentic Swahili cuisine.",
-    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80"
+    imageUrl: ctImg
   },
   {
     id: 3,
@@ -25,7 +30,7 @@ const dummyTours = [
     location: "Gem",
     price: 4500,
     description: "A thrilling nature walk through lush green trails leading to the magnificent Ndanu Falls. Perfect for hiking enthusiasts, photography, and experiencing the tranquil sounds of cascading water.",
-    imageUrl: "https://images.unsplash.com/photo-1543637005-4d639a4e16de?auto=format&fit=crop&w=1920&q=80"
+    imageUrl: ndImg
   }
 ];
 

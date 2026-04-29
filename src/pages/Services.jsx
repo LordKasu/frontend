@@ -1,6 +1,11 @@
 import React from 'react';
 import TourCard from '../components/TourCard';
 
+import msaImg from '../assets/msa.jpeg';
+import ndanuImg from '../assets/ndanu.jpeg';
+import amImg from '../assets/a.jpeg';
+import teamImg from '../assets/team.jpeg';
+
 // Our dummy data. 
 // I've added a 4th service here so you can see how the grid automatically expands!
 // (Remember to swap these Unsplash links with your local imports if you prefer!)
@@ -10,28 +15,28 @@ const dummyServices = [
     title: "Ruma National Park Safari",
     location: "Homa Bay",
     price: 8500,
-    imageUrl: "https://images.unsplash.com/photo-1614531341608-720b0b8cdeab?auto=format&fit=crop&w=800&q=80"
+    imageUrl: amImg
   },
   {
     id: 2,
     title: "Mombasa Coastal Retreat",
     location: "Mombasa",
     price: 15000,
-    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+    imageUrl: msaImg
   },
   {
     id: 3,
     title: "Ndanu Falls Expedition",
     location: "Gem",
     price: 4500,
-    imageUrl: "https://images.unsplash.com/photo-1543637005-4d639a4e16de?auto=format&fit=crop&w=800&q=80"
+    imageUrl: ndanuImg
   },
   {
     id: 4,
     title: "Corporate Team Building",
     location: "Various Locations",
     price: 25000,
-    imageUrl: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80"
+    imageUrl: teamImg
   }
 ];
 
