@@ -1,16 +1,25 @@
-# React + Vite
+# KasuTours Frontend 🌍🇰🇪
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React frontend prototype for KasuTours, a premier tour and safari agency based in Eldoret, Kenya. This project serves as the customer-facing web application, designed to showcase safari packages, company history, and facilitate bookings.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Routing:** Seamless single-page application (SPA) navigation using React Router.
+- **Fully Responsive:** Mobile-first design featuring a custom interactive hamburger menu for smaller screens.
+- **Modern UI/UX:** Built with Tailwind CSS for a clean, professional aesthetic using custom brand colors (Deep Blue & Safari Orange).
+- **Smooth Animations:** Custom CSS transitions for elegant page loading and scroll-to-top routing logic.
+- **Component-Driven:** Highly reusable architecture (e.g., dynamic TourCards used across multiple pages).
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React (via Vite for blazing-fast performance)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
 
-## Expanding the ESLint configuration
+## 💻 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/LordKasu/frontend.git](https://github.com/LordKasu/frontend.git)
