@@ -1,10 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import hbImg from './assets/m.jpeg'; 
-import ctImg from './assets/msa2.jpeg';
-import ndImg from './assets/vs.jpeg'; 
-
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollTop';
 import Hero from './components/Hero';
@@ -17,13 +13,13 @@ import Services from './pages/Services';
 import About from './pages/About'; 
 
 const imageMap = {
-  nairobiImg: hbImg,
-  nakuruImg: ctImg,
-  rumaImg: hbImg,
-  mombasaImg: ctImg,
-  ndanuImg: ndImg,
-  maraImg: hbImg,
-  default: ndImg
+  nairobiImg: '/images/m.jpeg',
+  nakuruImg: '/images/msa2.jpeg',
+  rumaImg: '/images/m.jpeg',
+  mombasaImg: '/images/msa2.jpeg',
+  ndanuImg: '/images/vs.jpeg',
+  maraImg: '/images/m.jpeg',
+  default: '/images/vs.jpeg'
 };
 
 const API_BASE_URL = 'https://kasutours-backend.onrender.com';
