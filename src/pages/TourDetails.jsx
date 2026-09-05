@@ -15,6 +15,8 @@ const imageMap = {
   default: ndImg
 };
 
+const API_BASE_URL = 'https://kasutours-backend.onrender.com';
+
 function TourDetails() {
   const { id } = useParams();
   const [tour, setTour] = useState(null);
@@ -22,7 +24,7 @@ function TourDetails() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:5000/api/tours/${id}`)
+    fetch(`${API_BASE_URL}/api/tours/${id}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error('Tour not found');

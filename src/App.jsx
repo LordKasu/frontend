@@ -26,12 +26,14 @@ const imageMap = {
   default: ndImg
 };
 
+const API_BASE_URL = 'https://kasutours-backend.onrender.com';
+
 function App() {
   const [tours, setTours] = useState([]);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5000/api/tours')
+    fetch(`${API_BASE_URL}/api/tours`)
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP Status ${res.status}`);
